@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListaClienteComponent } from './lista-cliente/lista-cliente.component';
 import { NovoAutorComponent } from './novo-autor/novo-autor.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,8 @@ import { NovoAutorComponent } from './novo-autor/novo-autor.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
