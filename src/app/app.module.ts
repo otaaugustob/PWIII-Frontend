@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListaClienteComponent } from './lista-cliente/lista-cliente.component';
+import { ListaAutorComponent } from './lista-autor/lista-autor.component';
 import { NovoAutorComponent } from './novo-autor/novo-autor.component';
 
 import { HttpClientModule } from '@angular/common/http';
@@ -11,7 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    ListaClienteComponent,
+    ListaAutorComponent,
     NovoAutorComponent
   ],
   imports: [
